@@ -31,3 +31,17 @@
   color: black;
   border: none;
 }
+
+#list-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+#list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 4rem;
+}
